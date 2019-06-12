@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homework 1 - Home</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="one">
+      <button onclick="location.href='index.html'" type="button" class="button button1">Home</button>
+      <button onclick="location.href='resources.html'" type="button" class="button button1">Resources</button>
+    </div>
+    <div class="two">
+      <div class="content">
+        <h1>Home</h1>
+        <p>
+          Welcome to the theme selector. Please select any of the preset themes by clicking one of the buttons below!
+          <div class="palette">
+            <button class="theme first" onclick="themeOne()">Theme 1</button>
+            <button class="theme second" onclick="themeTwo()">Theme 2</button>
+            <button class="theme third" onclick="themeThree()">Theme 3</button>
+
+            <script>
+            function themeOne() {
+              document.body.style.background = "#6CDEE4 url('http://i.imgur.com/M36SbzZ.png')";
+            }
+
+            function themeTwo() {
+              document.body.style.background = "#CEFAAB url('http://i.imgur.com/M36SbzZ.png')";
+            }
+
+            function themeThree() {
+              document.body.style.background = "#E36CA2 url('http://i.imgur.com/M36SbzZ.png')";
+            }
+            </script>
+          </div>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

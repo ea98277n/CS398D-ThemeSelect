@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homework 1 - Resources</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="one">
+      <button onclick="location.href='index.html'" type="button" class="button button1">Home</button>
+      <button onclick="location.href='resources.html'" type="button" class="button button1">Resources</button>
+    </div>
+    <div class="two">
+      <div class="content">
+        <h1>Resources</h1>
+        <p>
+          On this page are a few links that helped complete this assignment. Feel free to check them out!
+        </p>
+        <p>
+          <ul>
+            <li><a href="https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/">Scotch.io Flexbox Playground</a> - Live Customizable Flexbox</li>
+            <li><a href="https://www.transparenttextures.com">TransparentTextures.com</a> - Free Transparent Textures</li>
+            <li><a href="http://www.w3schools.com/">W3Schools.com</a> - W3Schools</li>
+            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks.com</a> - A Guide to Flexbox</li>
+          </ul>
+          <div class="palette">
+            <button class="theme first" onclick="themeOne()">Theme 1</button>
+            <button class="theme second" onclick="themeTwo()">Theme 2</button>
+            <button class="theme third" onclick="themeThree()">Theme 3</button>
+
+            <script>
+            function themeOne() {
+              document.body.style.background = "#6CDEE4 url('http://i.imgur.com/M36SbzZ.png')";
+            }
+
+            function themeTwo() {
+              document.body.style.background = "#CEFAAB url('http://i.imgur.com/M36SbzZ.png')";
+            }
+
+            function themeThree() {
+              document.body.style.background = "#E36CA2 url('http://i.imgur.com/M36SbzZ.png')";
+            }
+            </script>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
